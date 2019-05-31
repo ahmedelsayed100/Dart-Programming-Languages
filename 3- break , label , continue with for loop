@@ -1,0 +1,24 @@
+void main() {
+  //using break and label with nested for loop
+ outer: for (int x = 0; x < 5; x++) {
+    inner: for (int y = 0; y < 5; y++) {
+      if (x == 3 && y == 3) {
+     
+        break outer;
+          break inner;
+      }
+      print("the value of x = $x , and value of y =$y ");
+    }
+  }
+  print("===========================================");
+  //using continue and label with nested for loop
+  
+   outer: for (int x = 0; x < 5; x++) {
+    inner: for (int y = 0; y < 5; y++) {
+      if (x == 3 ) {
+        continue outer;
+      }
+      print("the value of x = $x , and value of y =$y ");
+    }
+  }
+}
