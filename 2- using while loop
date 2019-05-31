@@ -1,0 +1,13 @@
+void main(){
+  //while loop for degrees
+  
+  int mark =90;
+  int add =6;
+  while(mark <= 95 )
+  {
+    print("your grade is $mark you just need ${add-1} degree to get A+");
+    mark++;
+    add--;
+  }
+ 
+}
