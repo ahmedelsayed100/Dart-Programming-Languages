@@ -9,5 +9,12 @@ void main(){
     mark++;
     add--;
   }
+  
+   //do-while loop for degrees
+   do{
+     print("your grade is $mark you just need ${add-1} degree to get A+");
+     mark++;
+     add--;
+  }  while(mark <= 95 );
  
 }
