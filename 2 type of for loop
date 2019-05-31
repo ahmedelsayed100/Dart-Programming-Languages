@@ -1,0 +1,15 @@
+void main(){
+  //first type of for loop
+  //this code for printing from 0 -> 10
+  for(int i=0 ; i<=10; i++){
+    print("The value of item = $i");
+  }
+  print("==============================================");
+  //first type of for loop
+  //this code for printing from 10 -> 100 with index
+  List numbers = [10,20,30,40,50,60,70,80,90,100];
+  int x=0;
+  for(x in numbers){
+    print("The value of index ${numbers.indexOf(x)} =  ${x}");
+  }
+}
